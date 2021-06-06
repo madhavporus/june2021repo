@@ -27,7 +27,7 @@ public class GoogleSearchSteps {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		gsp = new GoogleSearchPage(driver);
 				
-		System.out.println(">>> Given user opens browser");
+		System.out.println(">>> Given user opens browser in chrome");
 	}
 
 	@And("navigates to the {string}")
